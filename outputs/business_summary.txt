@@ -1,0 +1,49 @@
+
+SUPPORT TICKET CLASSIFICATION & PRIORITIZATION
+================================================
+
+Project Purpose:
+This machine learning system automatically analyzes customer support
+tickets and predicts both the ticket category and priority level.
+
+How It Works:
+1. Customer submits a support ticket.
+2. The ticket description is cleaned using text preprocessing.
+3. TF-IDF converts the text into numerical features.
+4. A Logistic Regression model predicts the ticket type.
+5. A second Logistic Regression model predicts the ticket priority.
+
+Ticket Categories:
+- Refund request
+- Technical issue
+- Cancellation request
+- Product inquiry
+- Billing inquiry
+
+Priority Levels:
+- Critical
+- High
+- Medium
+- Low
+
+Business Benefits:
+- Reduces manual ticket sorting.
+- Helps support teams identify important tickets faster.
+- Improves ticket organization.
+- Helps reduce support backlog.
+- Allows support teams to focus on solving customer problems.
+- Supports faster and more consistent customer service.
+
+Machine Learning Approach:
+- Text preprocessing
+- TF-IDF feature extraction
+- Logistic Regression classification
+- Accuracy, Precision, Recall and F1-score evaluation
+- Confusion matrix analysis
+
+The system can be extended in the future with:
+- Advanced NLP models
+- Automated email/ticket integration
+- Real-time ticket classification
+- Dashboard visualization
+- Human-in-the-loop review for uncertain predictions
